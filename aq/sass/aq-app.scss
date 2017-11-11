@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.aq-app-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.aq-app-box1{
+  background: #008bd5;
+  overflow: hidden;
+  .box1-logo{
+    width: 100%;
+    float: left;
+    img{
+      margin-top: 30px;
+    }
+  }
+  .aq-box1-bg{
+    background: url("/images/app/aq-app-bg.png") no-repeat;
+    float: left;
+    overflow: hidden;
+    .box1-left{
+      width: 50%;
+      float: left;
+      overflow: hidden;
+      img{
+        width: 100%;
+        float: left;
+      }
+      .android{
+        width: 50%;
+        float: left;
+        text-align: center;
+        h3{
+          color: white;
+          font-size: 28px;
+          font-weight: normal;
+          margin-top: -14px;
+          line-height: 38px;
+          text-align: left;
+        }
+        h4{
+          color: white;
+          font-size: 24px;
+          font-weight: normal;
+          line-height: 38px;
+          margin: -8px 0 45px 0;
+          text-align: left;
+        }
+        ul {
+
+          margin-left: 32px;
+          li{
+            color: white;
+            line-height: 28px;
+            text-align: left;
+          }
+
+        }
+        a{
+          margin: 0 auto;
+          display: inline-block;
+          img{
+            padding-top: 60px;
+          }
+        }
+      }
+      .ios{
+        width: 50%;
+        float: left;
+        text-align: center;
+        img{
+          width: 170px;
+          float: none;
+        }
+        p{
+          font-size: 15px;
+          color: #fff;
+          line-height: 25px;
+          padding-top: 5%;
+        }
+        a > img {
+          margin-top: 60px;
+          max-width: 210px;
+          width: 100%;
+        }
+      }
+    }
+    .box1-right{
+      width: 50%;
+      float: left;
+      img{
+        max-width: 480px;
+        width: 120%;
+        padding: 25% 0 15% 8%;
+      }
+    }
+  }
+}
+
+.aq-app-box2{
+
+  background-color: #0084b8;
+  padding: 10px 0 25px 0;
+  .aq-app-container{
+    overflow:hidden;
+    .box2-col{
+      width: 25%;
+      padding: 0 15px;
+      text-align: center;
+      float: left;
+      img{
+        padding: 30px 0 20px 0;
+      }
+      h2{
+        font-size: 26px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-weight: normal;
+        padding-bottom: 8px;
+      }
+      p{
+        font-size: 13px;
+        color: #fff;
+        line-height: 25px;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.aq-app-box3{
+  padding: 40px 0 10px;
+  .aq-app-container{
+    overflow: hidden;
+    .box3-left{
+      margin-left: 100px;
+      width: 500px;
+      float: left;
+      h1{
+        color: #333333;
+        padding: 25px 0 15px 0;
+        font-weight: bold;
+        font-size: 36px;
+        text-align: center;
+      }
+      p{
+        font-size: 17px;
+        color: #333333;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+    }
+    .box3-right{
+      width: 500px;
+      float: left;
+      img{
+        margin: 15px 0 0 75px;
+      }
+    }
+  }
+}
+
+.aq-app-box4{
+  background: #eee;
+  padding: 20px 0;
+  overflow: hidden;
+  .box4-left{
+    width: 400px;
+    padding: 130px 15px 0;
+    float: left;
+    h2{
+      color: #333;
+      padding-bottom: 15px;
+      text-align: left;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    p{
+      color: #333;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 1px;
+      text-align: left;
+    }
+  }
+  .box4-mid{
+    width: 320px;
+    float: left;
+    img{
+      padding-left: 50px;
+    }
+  }
+}
+
+.aq-app-box5{
+  .aq-app-container{
+    padding: 35px 0;
+    h2{
+      color: #333;
+      font-weight: bold;
+      padding-bottom: 35px;
+      text-align: center;
+      font-size: 30px;
+    }
+    ul{
+      margin-left: 100px;
+        li{
+        list-style: none;
+        color: #333;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-align: left;
+        b{
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+
+.aq-app-box6{
+  .aq-app-container{
+    width: 1000px;
+    overflow: hidden;
+    img{
+      float: left;
+      margin-right: 26px;
+    }
+    img:nth-child(4){
+      margin-right: 0px;
+    };
+
+  }
+}
