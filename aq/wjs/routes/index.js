@@ -12,4 +12,8 @@ router.get("/app",function(req,res,next){
   res.render("aq-app");
 });
 
+router.get("/user",function(req,res,next){
+  res.render("aq-user-body");
+});
+
 module.exports = router;

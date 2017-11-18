@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>微金所头部</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href='/css/top.css'>
+    <!-- <link rel="stylesheet" href='../public/css/top.css'> -->
+    <!-- <link rel="stylesheet" href="./top.css"> -->
+  </head>
+  <body>
+
+    <div class="top">
+      <div class="container clearfix">
+        <div class="right">
+          <a href="https://www.weijinsuo.com/deposit/index" class="in">进入存管专区</a>
+          <a href="https://www.weijinsuo.com/guide/faq">帮助中心</a>
+          <span class="line">|</span>
+          <span class="users">
+            <a href="https://www.weijinsuo.com/register">注册</a>
+            <a href="https://www.weijinsuo.com/login">登录</a>
+          </span>
+        </div>
+        <div class="left">
+          <span class="top-phone">
+            <i class="icon-telephone"></i>
+            客服电话：4006-89-4006 / 010-53563799/（9:00~21:00)
+          </span>
+          <span class="line">|</span>
+          <span>
+            <a href="#" class="sobot">
+              <i class="icon-service-o"></i>
+              在线客服
+            </a>
+          </span>
+          <span class="line">|</span>
+          <span>
+            <a href="https://www.weijinsuo.com/app" target="_blank">
+              <i class="icon-mobile-2">
+                <div class="y"></div>
+              </i>
+              移动客户端
+            </a>
+            <img src="./img/yd.jpg" alt="" class="hide">
+          </span>
+          <span class="line">|</span>
+          <span>
+            <i class="icon-wechat-o">
+              <div class="z"></div>
+            </i>
+            微信公众号二维码
+            <img src="./img/wx.jpg" alt="" class="hide" width="130">
+          </span>
+          <span class="line">|</span>
+          <span>
+            <a href="http://cf.weijinsuo.com/" target="_blank">
+              <i class="icon-money-bag"></i>
+              财富登录
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="container clearfix">
+        <div class="menu">
+          <ul class="tabs">
+            <li class="active"><a href="https://www.weijinsuo.com/" class="page">首页</a></li>
+            <li><a href="https://www.weijinsuo.com/loan/" class="loan">我要投资</a></li>
+            <li><a href="https://www.weijinsuo.com/security" class="security">安全保障</a></li>
+            <li><a href="https://www.weijinsuo.com/guide" class="guide">新手指南</a></li>
+            <li><a href="https://www.weijinsuo.com/news/" class="news">新闻公告</a></li>
+            <li><a href="https://www.weijinsuo.com/about" class="about">关于我们</a></li>
+            <li class="me">
+              <a href="https://www.weijinsuo.com/login">
+                <span class="account"></span>
+                我的帐户
+              </a>
+            </li>
+          </ul>
+          <div class="h">
+            <div class="h1"></div>
+            <div class="h2"></div>
+            <div class="h3"></div>
+            <div class="h4"></div>
+            <div class="h5"></div>
+            <div class="h6"></div>
+          </div>
+
+        </div>
+        <div class="logo">
+          <span class="box"></span>
+          <a href="#" class="point">|</a>
+          <span class="tp">
+            <img src="./img/si.png" alt="">
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="zhongjian"></div> -->
+
+
+    <!-- <div class="tck" id="tck">
+      <div id="icon" class="icon">
+      </div>
+      <div id="reg" class="reg">
+        <in id="int2"></in>
+        <bu id="btn2"></bu>
+      </div>
+      <div id="show" class="show"></div>
+      <div class="input">
+        <input id="int" type="text" name="" value="">
+        <button id="btn">发送</button>
+      </div>
+    </div>
+
+
+     <script src="https://cdn.bootcss.com/socket.io/2.0.3/socket.io.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var tck = document.getElementById("tck");
+      var int = document.getElementById('int');
+      var icon = document.getElementById('icon');
+      var int2 = document.getElementById('int2');
+      var show = document.getElementById("show");
+      var btn = document.getElementById('btn');
+      var btn2 = document.getElementById('btn2');
+      var socket = io("http://127.0.0.1:3000");
+      var reg = document.getElementById('reg');
+      var H = window.innerHeight;
+      var W = window.innerWidth;
+
+      btn.onclick = function(){
+        socket.emit('sendMessage',int2.value+":"+int.value);
+        var three = document.createElement('span');
+        three.style.cssText = "color: black; font-weight: bold;display: block;text-align: right;margin-right: 10px;margin-top: 10px";
+        three.innerHTML = int.value;
+        show.appendChild(three);
+        int.value = "";
+      }
+
+      btn2.onclick = function(){
+        reg.style.cssText = "display: none";
+        socket.emit('clickname',int2.value);
+      };
+      $(function(){
+        $(".icon-service-o").onclick(function(){
+          $(".tck").show();
+        },function(){
+          $(".tck").hide();
+        });
+      });
+    </script> -->
+
+    <script src="/js/jquery.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+
+    $(function(){
+      $(".icon-mobile-2").hover(function(){
+        $(".y").show();
+      },function(){
+        $(".y").hide();
+      });
+    });
+    $(function(){
+      $(".icon-wechat-o").hover(function(){
+        $(".z").show();
+      },function(){
+        $(".z").hide();
+      });
+    });
+
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".loan").hover(function(){
+          $(".h2").show();
+        },function(){
+          $(".h2").hide();
+        });
+        $(".security").hover(function(){
+          $(".h3").show();
+        },function(){
+          $(".h3").hide();
+        });
+        $(".guide").hover(function(){
+          $(".h4").show();
+        },function(){
+          $(".h4").hide();
+        });
+        $(".news").hover(function(){
+          $(".h5").show();
+        },function(){
+          $(".h5").hide();
+        });
+        $(".about").hover(function(){
+          $(".h6").show();
+        },function(){
+          $(".h6").hide();
+        });
+      })
+
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
